@@ -715,6 +715,12 @@ footer .logo-s {
   * {
     font-size: 14px;
   }
+   body{
+    overflow-y: scroll;
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
   .txt,
   #hcenter {
     width: 80%;
