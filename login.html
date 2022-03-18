@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="loginstyle.css" />
+  <title>Sign in & Sign up Form</title>
+    <!-- =========================== google fonts =========================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="logo">FUTURE<img src="img/icons/superhero.png" width="35px"><span class="logo-s">HERO'S</span></div>
+    <nav class="navlink" id="myTopnav">
+        <a class="link" href="index.html">Home</a>
+        <a class="link" href="health.html">Health</a>
+        <a class="link" href="fitness.html">Fitness</a>
+        <a class="link" href="learn.html">Learning</a>
+        <a class="link" href="community.html">Community</a>
+        <a class="link" href="about.html">About</a>
+        <a class="link" href="#contact">Contact</a>
+        <a class="login" href="login.html">LOGIN</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </nav>
+
+</header>  <div class="container">
+    <div class="forms-container">
+      <div class="signin-signup">
+        <form action="#" class="sign-in-form">
+          <h2 class="title">Sign in</h2>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Username" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" />
+          </div>
+          <input type="submit" value="Login" class="btn solid" />
+          <p class="social-text">Or Sign in with social platforms</p>
+          <div class="social-media">
+            <a href="#" class="social-icon">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </form>
+        <form action="#" class="sign-up-form">
+          <h2 class="title">Sign up</h2>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Username" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" />
+          </div>
+          <input type="submit" class="btn" value="Sign up" />
+          <p class="social-text">Or Sign up with social platforms</p>
+          <div class="social-media">
+            <a href="#" class="social-icon">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="panels-container">
+      <div class="panel left-panel">
+        <div class="content">
+          <h3>New here ?</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+            ex ratione. Aliquid!
+          </p>
+          <button class="btn transparent" id="sign-up-btn">
+            Sign up
+          </button>
+        </div>
+        <img src="img/log.png" class="image" alt="" />
+      </div>
+      <div class="panel right-panel">
+        <div class="content">
+          <h3>One of us ?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            laboriosam ad deleniti.
+          </p>
+          <button class="btn transparent" id="sign-in-btn">
+            Sign in
+          </button>
+        </div>
+        <img src="img/register.png" class="image" alt="" />
+      </div>
+    </div>
+  </div>
+    <!-- ===========================  Footer  ============================ -->
+    <footer>
+      <div class="fmain">
+          <div class="inline-footer" id="contact">
+              <p><span class="logo">FUTURE<img src="img/icons/superhero.png" width="30px"><span
+                          class="logo-s">HERO'S</span></span><br><br></p>
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  et dolore magna aliqua. Ut enim ad minim veniam.<br>
+              </p>
+              <div class="social">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
+          <div class="inline-footer">
+              <p>
+                  <i class="fas fa-map-marker-alt red"></i><span class="white">Address:</span>
+              </p>
+              <p> Tech 4 Dev Bootcamp<br />
+                  Egypt , Africa
+              </p>
+              <p>
+                  <i class="fas fa-phone-alt red"></i><span class="white">Phone:</span>
+              </p>
+              <p>(+2) 012 0000 0000
+              </p>
+              <p>
+                  <i class="fas fa-envelope red"></i><span class="white">Email:</span>
+              </p>
+              <p>info@yourdomain.com
+              </p>
+          </div>
+          <div class="inline-footer">
+              <div class="flinks">
+                  <a href="index.html">Home</a>
+                  <a href="health.html">Health</a>
+                  <a href="fitness.html">Fitness</a>
+                  <a href="learn.html">Learning</a>
+                  <a href="community.html">Community</a>
+                  <a href="about.html">About</a>
+                  <a href="contact.html">Contact</a>
+              </div>
+          </div>
+          <div class="inline-footer">
+              <p>Subscribe For Our Latest News And Events</p>
+              <form>
+                  <label for="email">Enter your email:</label>
+                  <input type="email" id="email" name="email">
+              </form>
+              <br><br>
+          </div>
+      </div>
+      <div class="center copyright">
+          Copyright &copy; 2022 All Rights Reserved |
+          <a href="http://">FutureHeros.com</a>
+      </div>
+  </footer>
+  <!-- =========================== / End of Footer  ============================ -->
+
+  <script src="app.js"></script>
+</body>
+
+</html>

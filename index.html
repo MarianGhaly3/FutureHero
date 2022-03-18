@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Future Hero's</title>
+    <meta charset="utf-8" />
+    <link rel="StyleSheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- =========================== google fonts =========================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-alt-circle-up"></i></button>
+    <header>
+        <div class="logo">FUTURE<img src="img/icons/superhero.png" width="35px"><span class="logo-s">HERO'S</span></div>
+        <nav class="navlink" id="myTopnav">
+            <a class="link" href="index.html">Home</a>
+            <a class="link" href="health.html">Health</a>
+            <a class="link" href="fitness.html">Fitness</a>
+            <a class="link" href="learn.html">Learning</a>
+            <a class="link" href="community.html">Community</a>
+            <a class="link" href="about.html">About</a>
+            <a class="link" href="#contact">Contact</a>
+            <a class="login" href="login.html">LOGIN</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        </nav>
+
+    </header>
+
+    <div class="slider">
+        <!-- fade css -->
+        <div class="myslide fadeIn">
+            <div class="txt" id="hcenter">
+                <h1>Future Hero's</h1>
+                <h3>Future Hero's<br>Follow your Dreams, Release your power</h3>
+            </div>
+            <img src="img/1main.png">
+        </div>
+
+        <div class="myslide fadeIn">
+            <div class="txt">
+                <h2>Health</h2>
+                <p class="white">Keeping your child healthy is a big
+                    job! Read all about common childhood aches, pains, and illnesses, plus how to take care of your
+                    child's body from teeth to
+                    toes.</p>
+            </div>
+            <img src="img/2health.png">
+        </div>
+
+        <div class="myslide fadeIn">
+            <div class="txt">
+                <h2>Fitness</h2>
+                <p class="white">Reducing inactivity may be more effective in achieving overall
+                    increases in energy levels in young children than putting the emphasis on increasing involvement
+                    in
+                    sporting activities. Taking steps to reduce children’s sedentary time is important.</p>
+            </div>
+            <img src="img/3fitness.png">
+        </div>
+
+        <div class="myslide fadeIn">
+            <div class="txt">
+                <h2>Learning</h2>
+                <p class="white">Learning not only develops our academic performance but is also helpful in other curricular
+                    activities. We learn to read, write, speak, learn various skills, practice other activities; all are
+                    various types of education</p>
+            </div>
+            <img src="img/4learning.png">
+        </div>
+
+        <div class="myslide fadeIn">
+            <div class="txt">
+                <h2>Community</h2>
+                <p class="white">Unlike stories and notes which are associated with each child,
+                    the community space is a place that everyone in the community can view and contribute to</p>
+            </div>
+            <img src="img/5comunity.png">
+        </div>
+        <div class="myslide fadeIn">
+            <div class="txt">
+                <h2 class="yellow">About</h2>
+                <p class="white">Provide a all-in-one place to Expand the child's perceptions and openness to the
+                    outside world through a
+                    interactive, joyful learning journey</p>
+            </div>
+            <img src="img/6about.png">
+        </div>
+        <!-- /fade css -->
+
+        <!-- onclick js -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="dotsbox" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+
+        </div>
+        <!-- /onclick js -->
+    </div>
+
+    <!-- =========================== / End of Header ============================ -->
+
+    <!-- ===========================  Container  ============================ -->
+
+    <div class="container">
+
+        <!-- =========================== Section 1 [Welcome] ============================ -->
+        <section class="bg-imgA">
+            <div class="bodysection" id="">
+                <div class="sectiontitle">
+                    <h3 class=" animate__animated hidden blue">Welcome To <img src="img/future.png" width="230px">
+                    </h3>
+                </div>
+                <div class="double2 animate__animated hidden">
+                    <div class="left2">
+                        <br><br>
+                        <p class="firstlet">Your Best Kids Future World Awaits
+                            We're so glad you're here! You are now part of a growing community that creating,
+                            collaborating, and connecting across the globe via <img src="img/future.png" width="120px">
+                            Whether you've joined to LEARN or just to connect with professionals OF OUR COMMUNITY, we’ve
+                            got something for you.
+                        </p>
+                        <div>
+                            <a href="community.html" class="morebutton bg-red">Let's Get Started</a>
+                        </div>
+                    </div>
+                    <div class="right2">
+                        <img class="sectionimg" src="img/36490995._SY475_.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================== / End of Section  [Welcome] ============================ -->
+
+        <!-- =========================== Section 2 [About] ============================ -->
+        <section class="bg-blue">
+            <div class="bodysection" id="">
+                <div class="sectiontitle">
+                    <h3 class=" animate__animated hidden">About Us</h3>
+                    <div class=" animate__animated hidden">
+                        We Future heros team want to provide a all-in-one place for a family to find answers
+                        to all their concerns of how to take care of their child beginning from what to eat
+                        to the Expansion of the child's perceptions and openness to the outside world through a
+                        interactive, joyful learning journey
+                    </div>
+                </div>
+            </div>
+            <div class="bodysection2" id="">
+                <div class="quadruple animate__animated hidden">
+                    <div class="quadruplediv">
+                        <a href="#health">
+                            <h4 class="green">Health & nutrition</h4>
+                            <img class="fit" src="img/2health.png">
+                            <p>Keep your child healthy</p>
+                        </a>
+                    </div>
+                    <div class="quadruplediv">
+                        <a href="#fitness">
+                            <h4 class="red">Fitness & sports</h4>
+                            <img class="fit" src="img/3fitness.png">
+                            <p>Increase energy levels in your young children &
+                                Tak steps to reduce children’s sedentary time
+                            </p>
+                        </a>
+                    </div>
+                    <div class="quadruplediv">
+                        <a href="#learn">
+                            <h4 class="yellow">Learning</h4>
+                            <img class="fit" src="img/4learning.png">
+                            <p>Open the mind of your childern to know more about the outside world
+                                with intersting and updated topics
+                            </p>
+                        </a>
+                    </div>
+                    <div class="quadruplediv">
+                        <a href="#community">
+                            <h4 class="purple">Community</h4>
+                            <img class="fit" src="img/5comunity.png">
+                            <p>Connect with other parents having the same mind.
+                                Share useful tips & Be introduced to others
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================== / End of Section  [name] ============================ -->
+
+        <!-- =========================== Section 3 [Health] ============================ -->
+        <section class="bg-imgH">
+            <div class="bodysection" id="health">
+                <div class="sectiontitle">
+                    <h3 class="green animate__animated hidden">Health and nutrition</h3>
+                    <p class="white animate__animated hidden">Keeping your child healthy is a big
+                        job! Read all about common childhood aches, pains, and illnesses, plus how to take care of your
+                        child's body from teeth to
+                        toes.</p>
+                </div>
+                <div class="double animate__animated hidden bg-green">
+                    <div class="left">
+                        <img class="sectionimg"
+                            src="https://content.thriveglobal.com/wp-content/uploads/2020/01/Healthy-Kids.jpg" alt="">
+                    </div>
+                    <div class="right"> <br><br>
+                        <p class="firstlet white">Good health is not just the absence of disease or illness, it is
+                            a state of complete physical, mental and social well-being. Our children are our future and
+                            we believe teaching healthy habits at a young age can change a person's life for the better.
+                            We aim to educate and empower all families, children and
+                            schools to make the healthiest choices possible for our Future Hero's. </p>
+                    </div>
+                </div>
+                <div class="trible animate__animated hidden">
+                    <div class="triblediv bg-green">
+                        <h4>Life Style</h4>
+                        <div>
+                            <img class="iconthumb" src="img/icons/vitamins.png" alt="">
+                            <h5>Vitamins</h5>
+                            <p class="white">Are substances that our bodies need to develop and function normally</p>
+                            <br>
+                            <img class="iconthumb" src="img/icons/sleeping.png" alt="">
+                            <h5> Sleep Well </h5>
+                            <p class="white"> Increase productivity by making you feel more energetic and give you the
+                                time you need to rest</p><br>
+                            <img class="iconthumb" src="img/icons/cleaning.png" alt="">
+                            <h5>Hygiene</h5>
+                            <p class="white"> Is the practice, disciplined way of life to live in a healthy way</p><br>
+                        </div>
+                    </div>
+                    <div class="triblediv bg-green">
+                        <h4>Nutrition</h4>
+                        <div>
+                            <img class="iconthumb" src="img/icons/healthy-food.png" alt="">
+                            <h5>Eat Healthy</h5>
+                            <p class="white"> Intaking healthy food that full of nutrients, we reduce the chances of
+                                diseases</p><br>
+                            <img class="iconthumb" src="img/icons/water-bottle.png" alt="">
+                            <h5>More Water </h5>
+                            <p class="white"> makes up more than half of your body weight.A person can't survive without
+                                it</p><br>
+                            <img class="iconthumb" src="img/icons/no-food.png" alt="">
+                            <h5> No Junk Food </h5>
+                            <p class="white">the foods which are not good for health as well as body.has very little
+                                nutritive content</p><br>
+                        </div>
+                    </div>
+                    <div class="triblediv bg-green">
+                        <h4>Mental Health</h4>
+                        <div>
+                            <div>
+                                <img class="iconthumb" src="img/icons/healthy-lifestyle.png" alt="">
+                                <h5>Healthy </h5>
+                                <p class="white"> being healthy not only impact our physical health but mental health
+                                    too</p>
+                            </div><br>
+                            <div>
+                                <img class="iconthumb" src="img/icons/anxiety.png" alt="">
+                                <h5>Negative Thoughts</h5>
+                                <p class="white"> Negativity can lead to things such as exhaustion, hunger, sleep
+                                    deprivation, and even the common cold</p>
+                            </div><br>
+                            <div>
+                                <img class="iconthumb" src="img/icons/yoga-pose.png" alt="">
+                                <h5> Meditation </h5>
+                                <p class="white">If you haven't tried mind activities for kids with your child yet,
+                                    a mental health day is a great time to do so.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================== / End of Section  [Health] ============================ -->
+        <!-- =========================== Section 3 [fitness] ============================ -->
+        <section class="bg-red">
+            <div class="bodysection" id="fitness">
+                <div class="sectiontitle">
+                    <h3 class=" animate__animated hidden">fitness and sports</h3>
+                    <p class="white animate__animated hidden">Reducing inactivity may be more effective in achieving
+                        overall
+                        increases in energy levels in young children than putting the emphasis on increasing involvement
+                        in
+                        sporting activities. Taking steps to reduce children’s sedentary time is important.</p>
+                </div>
+                <div class="trible animate__animated hidden">
+                    <div class="triblediv bg-white">
+                        <h4 class="red">Fitness</h4>
+                        <img class="fit" src="https://www.angelsense.com/wp-content/uploads/2020/01/1-min-1.png" alt="">
+                        <p>Regular exercise increases the overall happiness in our life which keeps us mentally happy
+                            and peaceful too</p><br>
+                    </div>
+                    <div class="triblediv bg-white">
+                        <h4 class="red">Swimming</h4>
+                        <img class="fit" src="https://brparents.com/custom/domain_1/image_files/sitemgr_photo_29863.jpg"
+                            alt="">
+                        <p>Is a great workout because you need to move your whole body against the resistance of the
+                            water</p><br>
+                    </div>
+                    <div class="triblediv bg-white">
+                        <h4 class="red">Yoga</h4>
+                        <img class="fit" src="https://www.homebase.org/media/AdobeStock_144251491-1024x683.jpeg" alt="">
+                        <p>Is the ultimate act of harmony between one's physical existence and spiritual conscience</p>
+                        <br>
+                    </div>
+                </div>
+                <div class="trible animate__animated hidden">
+                    <div class="triblediv bg-white">
+                        <h4 class="red">Karate</h4>
+                        <img class="fit" src="img/karate.jpg"
+                            alt="">
+                        <p>is a Japanese martial art whose physical aspects seek the development of defensive and
+                            counterattacking body movements</p><br>
+                    </div>
+                    <div class="triblediv bg-white">
+                        <h4 class="red">Football</h4>
+                        <img class="fit" src="img/football.jpeg" alt="">
+                        <p>a game involving two teams of 11 players who try to maneuver the ball into the other team's
+                            goal without using their hands or arms</p><br>
+                    </div>
+                    <div class="triblediv bg-white">
+                        <h4 class="red">gymnastics</h4>
+                        <img class="fit" src="img/best_gymnastics.jpg" alt="">
+                        <p>a game involving two teams of 11 players who try to maneuver the ball into the other team's
+                            goal without using their hands or arms</p><br>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================== / End of Section  [fitness] ============================ -->
+
+        <!-- =========================== Section 5 [Learning] ============================ -->
+        <section class="bg-imgL">
+            <div class="bodysection" id="learn">
+                <div class="sectiontitle pdbottom">
+                    <h3 class="yellow animate__animated hidden">Learning</h3>
+                    <p class="white animate__animated hidden">Learning is an essential part of life and it covers a very broad
+                        area of knowledge.
+                        We can also call learning as a process of gaining knowledge.
+                        The only difference between apes and humans was, they were not educated and we are educated and
+                        well mannered.<br>
+                        learning not only develops our academic performance but is also helpful in other curricular
+                        activities. We learn to read, write, speak, learn various skills, practice other activities; all
+                        are various types of education.</p>
+                </div>
+                <div class="trible animate__animated hidden">
+                    <div class="triblediv bg-yellow">
+                        <div class="tribledivImg">
+                            <img class="circleimg" src="img/icons/coding.png" alt="">
+                        </div>
+                        <h4>Coding</h4>
+                        <p>Coding is a skill where you take instructions (the steps in a task) and translate it into a
+                            language the computer understands</p><br>
+                    </div>
+                    <div class="triblediv bg-yellow">
+                        <div class="tribledivImg">
+                            <img class="circleimg" src="img/icons/robot.png" alt="">
+                        </div>
+                        <h4>Robotics</h4>
+                        <p>Robotics involves design, construction, operation, and use of robots. The goal of robotics is
+                            to design machines that can help and assist humans</p><br>
+                    </div>
+                    <div class="triblediv bg-yellow">
+                        <div class="tribledivImg">
+                            <img class="circleimg" src="img/icons/electricity.png" alt="">
+                        </div>
+                        <h4>Electricity</h4>
+                        <p>It is used for lighting rooms, working fans and domestic appliances like using electric
+                            stoves</p><br>
+                    </div>
+                </div>
+                <div class="trible animate__animated hidden">
+                    <div class="triblediv bg-yellow">
+                        <div class="tribledivImg">
+                            <img class="circleimg" src="img/icons/maths.png" alt="">
+                        </div>
+                        <h4>Math</h4>
+                        <p>is the science that deals with the logic of shape, quantity and arrangement</p><br>
+                    </div>
+                    <div class="triblediv bg-yellow">
+                        <div class="tribledivImg">
+                            <img class="circleimg" src="img/icons/dna.png" alt="">
+                        </div>
+                        <h4>Science</h4>
+                        <p>Science is the knowledge about the earth, surroundings and environment and the living beings
+                            involved</p><br>
+                    </div>
+                    <div class="triblediv bg-yellow">
+                        <div class="tribledivImg">
+                            <img class="circleimg" src="img/icons/paint-brush.png" alt="">
+                        </div>
+                        <h4>art</h4>
+                        <p>Art is a creative activity that expresses imaginative or technical skill. It produces a
+                            product, an object.</p><br>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================== / End of Section  [Learning] ============================ -->
+
+        <!-- =========================== Section 5 [Community] ============================ -->
+        <section class="bg-purple">
+            <div class="bodysection" id="community">
+                <div class="sectiontitle">
+                    <h3 class="animate__animated hidden">our Community</h3>
+                    <p class="animate__animated hidden white">The place where parents can speak freely and share
+                        their thoughts and tips. Very helpuful for the new parents to find answers to their questions
+                        and concerns</p>
+                </div>
+                <div class="double animate__animated hidden">
+                    <div class="left">
+                        <br><br>
+                        <p class="firstlet white">Unlike stories and notes which are associated with each child,
+                            the community space is a place that everyone in the community can view and contribute to.
+                            This is a great place to share what's happening at your early learning centre and to get
+                            parents involved.
+                            You can share via a ‘Community post’, or an ‘Announcement’..
+                        </p>
+                    </div>
+                    <div class="right">
+                        <img class="sectionimg" src="img/group-of-kids.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================== / End of Section  [Community] ============================ -->
+
+    </div>
+    <!-- =========================== /  End of container   ============================ -->
+
+    <!-- ===========================  Footer  ============================ -->
+    <footer>
+        <div class="fmain">
+            <div class="inline-footer" id="contact">
+                <p><span class="logo">FUTURE<img src="img/icons/superhero.png" width="30px"><span
+                            class="logo-s">HERO'S</span></span><br><br></p>
+                <p>
+                    Provides a all-in-one place for a family to find answers to all their concerns of how to take care
+                    of their child<br>
+                </p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="inline-footer">
+                <p>
+                    <i class="fas fa-map-marker-alt red"></i><span class="white">Address:</span>
+                </p>
+                <p> Tech 4 Dev Bootcamp<br />
+                    Egypt , Africa
+                </p>
+                <p>
+                    <i class="fas fa-phone-alt red"></i><span class="white">Phone:</span>
+                </p>
+                <p>(+2) 012 0000 0000
+                </p>
+                <p>
+                    <i class="fas fa-envelope red"></i><span class="white">Email:</span>
+                </p>
+                <p>info@yourdomain.com
+                </p>
+            </div>
+            <div class="inline-footer">
+                <div class="flinks">
+                    <a href="index.html">Home</a>
+                    <a href="health.html">Health</a>
+                    <a href="fitness.html">Fitness</a>
+                    <a href="learn.html">Learning</a>
+                    <a href="community.html">Community</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="inline-footer">
+                <p>Subscribe For Our Latest News And Events</p>
+                <form>
+                    <label for="email">Enter your email:</label>
+                    <input type="email" id="email" name="email">
+                </form>
+                <br><br>
+            </div>
+        </div>
+        <div class=" copyright">
+            Copyright &copy; 2022 All Rights Reserved |
+            <a href="http://">FutureHeros.com</a>
+        </div>
+    </footer>
+    <!-- =========================== / End of Footer  ============================ -->
+
+    <script src="jsfile.js"></script>
+</body>
+
+</html>

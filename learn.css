@@ -1,0 +1,116 @@
+
+.learntabs a:hover,
+.learntabs a:active {
+  color: #fff;
+  border-bottom: 2px solid #F85254;
+}/*section 5 learning */
+
+#learn {
+    position: relative;
+    width: 100%;
+    background-image: url("img/learn-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+  }
+  .learnmenu {
+    width:70%;
+    margin:0 auto ;
+  }
+  .learntabs{
+    text-align: center;
+    overflow: hidden;
+  }
+  .iconthumb2{
+    width: 120px;
+    float: left;
+    margin:10px;
+    padding:20px 10px;
+    display: block;
+
+  }
+  .learntabs button{
+    font-size: 0.9em;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #F85254;
+    color: #f1efef;
+    border-radius:6px 6px 0 0; 
+    border:none;
+    font-weight:500;
+    margin:0 5px;
+    padding: 10px 25px;
+    letter-spacing: 0.1em;
+  }
+  .learntabs button:hover,
+  .learntabs button.active,
+  .learntabs button:active{
+    background-color: #FDD305;
+    color: #fff;
+  }
+  .tabdiv {
+    display: none;
+    width: 95%;
+    margin: 0 auto;
+    border-top: 2px solid #FDD305 ;
+  }
+  .tabdiv.active,
+  .tabdiv:active{
+    display: block;
+  }
+
+  .hsides{
+    width: 100%;
+    display:flex;
+    margin: 10px 0;
+  }
+  .half {
+    width:47%;
+    border-radius: 12px;
+    /*display: inline-block;*/
+    margin:10px;
+    padding: 10px;
+    font-size:0.85em;
+    background-color:#fff;
+    flex-grow: 1;
+
+  }
+  .half p{
+    color: #ccc;
+  }
+  .half div{
+    overflow:hidden;
+    margin: 5px;
+    padding:5px;
+  }
+  /* ====== mediaquery On smaller screens breakpoint 768px ====== */
+@media screen and (max-width: 768px) {
+  * {
+    font-size: 14px;
+  }
+  .learnmenu {
+    width:100%;
+    margin:0 auto ;
+  }
+  .half,
+  .hsides {
+    width: 98%;
+    display: block;
+  }
+  .iconthumb2{
+    width: 80px;
+    margin:20px 10px;
+  }
+  .learntabs button{
+    /*font-size: 0.9em;*/
+    border:none;
+    font-weight:500;
+    margin:0 1px;
+    padding: 6px 5px;
+    font-size: 0.8em;
+  }
+}
