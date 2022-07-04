@@ -625,3 +625,11 @@ i {
     padding: 0;
   }
 }
+
+.toPosts{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
